@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="js/script4.js"></script>
+    <form>
+        <table>
+          <tr>
+            <td colspan="5"><input type="text" id="txtnumero" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" onclick="pegaValor('0')" value="0" id="num0" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('1')" value="1" id="num1" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('2')" value="2" id="num2" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('3')" value="3" id="num3" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('4')" value="4" id="num4" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" onclick="pegaValor('5')" value="5" id="num5" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('6')" value="6" id="num6" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('7')" value="7" id="num7" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('8')" value="8" id="num8" />
+            </td>
+            <td>
+              <input type="button" onclick="pegaValor('9')" value="9" id="num9" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="button"
+                onclick="pegaValor('+')"
+                value="+"
+                id="botaosoma"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                onclick="pegaValor('-')"
+                value="-"
+                id="botaosubtracao"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                onclick="pegaValor('*')"
+                value="*"
+                id="botaomultiplicacao"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                onclick="pegaValor('/')"
+                value="/"
+                id="botaodivisao"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                onclick="calcular()"
+                value="="
+                id="botaoigual"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="button"
+                onclick="potencia()"
+                value="^"
+                id="botaopotencia"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                onclick="raizQuadrada()"
+                value="√"
+                id="botaoraiz"
+              />
+            </td>
+            <td colspan="3">
+              <input
+                type="button"
+                onclick="arredonda()"
+                value="arredonda"
+                id="botaoredonda"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+</body>
+</html>

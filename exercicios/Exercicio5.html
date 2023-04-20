@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style5.css">
+</head>
+<body>
+    <script src="js/script5.js"></script>
+    <main>
+        <button type="button" id="btn1">Cronômetro</button>
+        <button type="button" id="btn2">Slide show</button>
+        <button type="button" id="btn3">Tabuada</button>
+
+        <div id="divInicial">
+          <p>Clique nas abas acima.</p>
+        </div>
+
+        <div id="divCronometro">
+          <div id="txtNum"></div>
+        </div>
+
+        <div id="divSlide">
+          <div id="conteudo">
+            <img src="imagens/img1.jpg" id="imagens" /><br />
+            <input type="button" id="ant" value="Anterior" />
+            <input type="button" id="prox" value="Próxima" />
+          </div>
+        </div>
+
+        <div id="divTabuada">
+          Digite o número da tabuada que deseja calcular:<br />
+          <form>
+            <input type="text" id="txtNumTab" />
+            <input type="button" id="btntab" value="Calcular" />
+          </form>
+          <div id="restab"></div>
+        </div>
+      </main>
+</body>
+</html>
